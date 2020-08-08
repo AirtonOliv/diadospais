@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="UTF-8">
+        <title>Copa Zeus</title>
+        <style>
+            *{
+                margin: 0;
+                font-family: Helvetica;
+            }
+
+            /* barra de navega�ao */
+            nav{
+                background-color: #0f29a0;
+                border-bottom: 3px solid white;
+                height: 55px;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            #logo{
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: bold;
+                text-decoration: none;
+                position: absolute;
+                top: 15px;
+                left: 30px;
+            }
+
+            #menu{
+                list-style: none;
+                float: right;
+                margin-top: 18px;
+            }
+
+            .item{
+                display: inline-block;
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+
+            .item a{
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            .item a:hover{
+                color: #cccccc;
+                transition: .5s;
+            }
+
+            .light{
+                color: black;
+            }
+
+            h2{
+                font-size: 30px;
+                color: white;
+                margin-left: 10px;
+            }
+
+            h3{
+                font-size: 20px;
+                text-decoration-style: none;
+                color: white;
+                margin-left: 10px;
+            }
+
+            #page-content{
+                margin: 0 auto;
+                width: 900px;
+            }
+
+            #page{
+                background-color: lightgrey;
+            }
+        </style>
+        <link rel="icon" size="32x32" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Osu%21Logo_%282015%29.png/600px-Osu%21Logo_%282015%29.png">
+    </head>
+    <body>
+        <!--Como se fosse div, mas serve pra criar barras de navega��o-->
+        <nav>
+            <a href="https://www.facebook.com/CopaZeus/" id="logo" target="_blank">
+                Copa Zeus
+            </a>
+            <ul id="menu">
+                <li class="item"><a href="https://discord.com/invite/AyhDapX?fbclid=IwAR21_80gjDl5Utpbd1QykeBBPO4MqmkdCkjjCxYu21Wtai5C8BUmtD4KEso" target="_blank">Discord</a></li>
+                <li class="item"><a href="https://docs.google.com/document/d/12R0yZt5RJcoE7aX6QN0RwAZBztjWWuoGrhDvgvsKgSs" target="_blank">Regulamento osu!</a></li>
+
+            </ul>
+        </nav>
+        <div id="page">
+            <div id="page-content">
+                <a href="https://osu.ppy.sh/beatmapsets/593620#osu/1256136" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/593620/covers/cover.jpg)">
+                        
+                            <h2>Linked Horizon - Shinzou o Sasageyo! [TV Size]</h2>
+                        
+                        <h3>Difficult: Light Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.47</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/302756#osu/737493" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/302756/covers/cover.jpg)">
+                        
+                            <h2>Nanahoshi Kangengakudan - Meikaruza</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.66</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/515069#osu/1093845" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/515069/covers/cover.jpg)">
+                        
+                            <h2>RADWIMPS - Yume Tourou</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 8</h3>
+                        <h3>SR: 4.26</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/209170#osu/492285" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/209170/covers/cover.jpg)">
+                        
+                            <h2>Aoi Eir - IGNITE</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 5.09</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/80214#osu/250577" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/80214/covers/cover.jpg)">
+                        
+                            <h2>Wotamin - Gigantic O.T.N</h2>
+                        
+                        <h3>Difficult: Hard</h3>
+                        <h3>AR: 8</h3>
+                        <h3>SR: 4.23</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/282345#osu/647685" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/282345/covers/cover.jpg)">
+                        
+                            <h2>FLOWxGRANRODEO - 7 -seven- -TV SIZE</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.58</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/160126#osu/530043" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/160126/covers/cover.jpg)">
+                        
+                            <h2>DECO*27 - Streaming Heart feat. Hatsune Miku</h2>
+                        
+                        <h3>Difficult: 0920's Insane</h3>
+                        <h3>AR: 8.5</h3>
+                        <h3>SR: 4.68</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/399358#osu/896855" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/399358/covers/cover.jpg)">
+                        
+                            <h2 class="light">KANA-BOON - Silhouette</h2>
+                        
+                        <h3 class="light">Difficult: pkhg's Insane</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 4.33</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/94506#osu/391568" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/94506/covers/cover.jpg)">
+                        
+                            <h2>Amatsuki - Higurashi Moratorium</h2>
+                        
+                        <h3>Difficult: 10nya's Insane</h3>
+                        <h3>AR: 8</h3>
+                        <h3>SR: 4.6</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/119438#osu/308991" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/119438/covers/cover.jpg)">
+                        
+                            <h2 class="light">8284 vs wa. - Adularescence</h2>
+                        
+                        <h3 class="light">Difficult: Another</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 5.28</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/134151#osu/345099" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/134151/covers/cover.jpg)">
+                        
+                            <h2 class="light">Hanatan - Airman ga Taosenai (SOUND HOLIC Ver.)</h2>
+                        
+                        <h3 class="light">Difficult: Insane</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 5.14</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/87630#osu/239265" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/87630/covers/cover.jpg)">
+                        
+                            <h2>Linked Horizon - Guren no Yumiya (TV Size)</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.17</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/54373#osu/165325" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/54373/covers/cover.jpg)">
+                        
+                            <h2>LiSA - crossing field (TV Size)</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.54</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/572897#osu/1213767" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/572897/covers/cover.jpg)">
+                        
+                            <h2 class="light">LiSA - Catch the Moment</h2>
+                        
+                        <h3 class="light">Difficult: Insane</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 4.47</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/436611#osu/940378" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/436611/covers/cover.jpg)">
+                        
+                            <h2 class="light">DM DOKURO - Reality Check Through The Skull</h2>
+                        
+                        <h3 class="light">Difficult: UnReality</h3>
+                        <h3 class="light">AR: 9.7</h3>
+                        <h3 class="light">SR: 5.65</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/259127#osu/598885" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/259127/covers/cover.jpg)">
+                        
+                            <h2>AKINO from bless4 - MIIRO</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.84</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/190486#osu/453565" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/190486/covers/cover.jpg)">
+                        
+                            <h2 class="light">SUPER BEAVER - Rashisa</h2>
+                        
+                        <h3 class="light">Difficult: Insane</h3>
+                        <h3 class="light">AR: 8.8</h3>
+                        <h3 class="light">SR: 4.86</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/193996#osu/460809" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/193996/covers/cover.jpg)">
+                        
+                            <h2>BACK-ON - STRIKE BACK</h2>
+                        
+                        <h3>Difficult: Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.77</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/143397#osu/507728" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/143397/covers/cover.jpg)">
+                        
+                            <h2 class="light">Natsume Chiaki - Hanairo Biyori</h2>
+                        
+                        <h3 class="light">Difficult: wkyik's Insane</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 4.93</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/159527#osu/394491" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/159527/covers/cover.jpg)">
+                        
+                            <h2>40mP feat.yuikonnu - Ame to Asphalt</h2>
+                        
+                        <h3>Difficult: lfj's Insane</h3>
+                        <h3>AR: 9</h3>
+                        <h3>SR: 4.55</h3>
+                        <br>
+                    </div>
+                </a>
+                <a href="https://osu.ppy.sh/beatmapsets/24611#osu/97416" target="_blank">
+                    <div style="background-image: url(https://assets.ppy.sh/beatmaps/24611/covers/cover.jpg)">
+                        
+                            <h2 class="light">DystopiaGround - AugoEidEs</h2>
+                        
+                        <h3 class="light">Difficult: Aphotic</h3>
+                        <h3 class="light">AR: 9</h3>
+                        <h3 class="light">SR: 5.53</h3>
+                        <br>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+		
+</body></html>
