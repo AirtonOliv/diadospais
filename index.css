@@ -72,4 +72,17 @@ a{
 }
 .photo{
     width: 100%;
+    display: initial;
+}
+.hidden-text{
+    color: #008000;
+    font-family: cursive;
+    font-size: 20px;
+    display: none;
+    transition: 0.2;
+    position: relative;
+    word-break: keep-all;
+}
+.hidden-text:target{
+    display: inherit;
 }
