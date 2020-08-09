@@ -45,10 +45,6 @@ ul{
     display: flex;
     margin: 100px auto;
 }
-li{
-    text-decoration: none;
-    width: 220px;
-}
 .lbox{
     visibility: hidden;
     opacity: 0;
