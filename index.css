@@ -40,7 +40,7 @@ a{
     transition: .5s;
 }
 #gallery{
-    width: 100%px;
+    width: 100%;
     margin: 1rem auto;
     max-width: 960px;
     column-count: 3;
