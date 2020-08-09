@@ -6,7 +6,121 @@
 nav{
     background-color: #0f29a0;
     border-bottom: 3px solid white;
+    height: 55px;*{
+    margin: 0;
+    font-family: Helvetica;
+}
+/* barra de navegacao */
+nav{
+    background-color: #0f29a0;
+    border-bottom: 3px solid white;
     height: 55px;
+}
+#logo{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+#menu{
+    list-style: none;
+    float: right;
+    margin-top: 18px;
+}
+.item{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.item a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.item a:hover{
+    color: #cccccc;
+    transition: .5s;
+}
+ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+.light{
+    color: black;
+}
+.lbox{
+    visibility: hidden;
+    opacity: 0;
+}
+.lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, .7);
+    position: fixed;
+}
+.min{
+    width: 200px;
+    padding: 10px;
+}
+.box_img{
+    width: 1000px;
+    margin: 150px auto;
+}
+.btn{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+#prev{
+    left: 5%;
+    top: 45%;
+}
+#next{
+    right: 5%;
+    top: 45%;
+}
+#close{
+    right: 3%;
+    top: 0;
+}
+.box_img{
+    opacity: 0;
+}
+.lbox:target .box_img img{
+    opacity: 1;
+    transition: opacity .4s linear;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+h3{
+    font-size: 20px;
+    text-decoration-style: none;
+    color: white;
+    margin-left: 10px;
+}
+#page-content{
+    margin: 0 auto;
+    width: 900px;
+}
+#page{
+    background-color: lightgrey;
+}
 }
 a{
     text-decoration: none;
