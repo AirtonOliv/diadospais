@@ -111,5 +111,6 @@ h3{
     width: 900px;
 }
 #page{
+    margin: 0 auto;
     background-color: lightgrey;
 }
