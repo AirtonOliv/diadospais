@@ -5,8 +5,8 @@
 }
 /* barra de navegacao */
 nav{
-    background-color: #0f29a0;
-    border-bottom: 3px solid #ffffff;
+    background-color: #20a00f;
+    border-bottom: 10px solid #ffffff;
     height: 55px;
 }
 a{
@@ -14,22 +14,33 @@ a{
 }
 #logo{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 30px;
 }
 #menu{
     list-style: none;
     float: right;
-    margin-top: 18px;
+    margin-top: 15px;
+}
+.titulo{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 550px;
 }
 .item{
     display: inline-block;
     margin-right: 30px;
     margin-left: 30px;
+    font-size: 20px;
 }
 .item a{
     color: #ffffff;
@@ -41,24 +52,24 @@ a{
 }
 #gallery{
     width: 100%;
-    margin: 1rem auto;
+    margin: 0 auto;
     max-width: 960px;
     column-count: 3;
+    background-color: #ffffff;
 }
-.photo-holder{
+.photo-holder-first{
     margin-bottom: 10px;
+    margin-left: 15px;
+}
+.photo-holder-second{
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.photo-holder-third{
+    margin-bottom: 10px;
+    margin-right: 15px;
 }
 .photo{
     width: 100%;
-}
-h2{
-    font-size: 30px;
-    color: white;
-    margin-left: 10px;
-}
-h3{
-    font-size: 20px;
-    text-decoration-style: none;
-    color: white;
-    margin-left: 10px;
 }
