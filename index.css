@@ -44,7 +44,7 @@ a{
     margin: 1rem auto;
     max-width: 960px;
     column-count: 3;
-    background-color: lightgrey;
+    background-color: #d3d3d3;
 }
 .lbox{
     visibility: hidden;
