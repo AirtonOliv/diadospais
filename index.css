@@ -44,6 +44,7 @@ a{
     margin: 1rem auto;
     max-width: 960px;
     column-count: 3;
+    background-color: lightgrey;
 }
 .lbox{
     visibility: hidden;
@@ -105,12 +106,4 @@ h3{
     text-decoration-style: none;
     color: white;
     margin-left: 10px;
-}
-#page-content{
-    margin: 0 auto;
-    width: 900px;
-}
-#page{
-    margin: 0 auto;
-    background-color: lightgrey;
 }
