@@ -40,10 +40,10 @@ a{
     transition: .5s;
 }
 #gallery{
-    width: 880px;
-    list-style: none;
-    display: flex;
-    margin: 100px auto;
+    width: 100%px;
+    margin: 1rem auto;
+    max-width: 960px;
+    column-count: 3;
 }
 .lbox{
     visibility: hidden;
