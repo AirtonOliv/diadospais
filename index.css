@@ -9,6 +9,9 @@ nav{
     border-bottom: 3px solid white;
     height: 55px;
 }
+a{
+    text-decoration: none;
+}
 #logo{
     color: #ffffff;
     font-size: 20px;
