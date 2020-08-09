@@ -44,7 +44,7 @@ ul{
 }
 li{
     text-decoration: none;
-    width: 230px;
+    width: 220px;
 }
 .lbox{
     visibility: hidden;
@@ -69,7 +69,7 @@ li{
     margin: 150px auto;
 }
 .btn{
-    color: white;
+    color: green;
     font-family: 'Arial';
     text-decoration: none;
     position: absolute;
@@ -95,7 +95,6 @@ li{
 }
 .lbox:target .box_img img{
     opacity: 1;
-    transition: opacity .4s linear;
 }
 h2{
     font-size: 30px;
