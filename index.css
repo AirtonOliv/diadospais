@@ -39,7 +39,7 @@ a{
     color: #cccccc;
     transition: .5s;
 }
-ul{
+#gallery{
     width: 880px;
     list-style: none;
     display: flex;
